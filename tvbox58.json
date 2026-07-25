@@ -4,9 +4,24 @@
     {
       "key": "netflixgc",
       "name": "奈飞工厂",
-      "type": 1,
+      "type": 2,
       "api": "https://otherwise-sign-moreover-academic.trycloudflare.com/api.php/provide/vod",
       "searchable": 1,
-      "changeable": 1
+      "quickSearch": 1,
+      "filterable": 0,
+      "playerType": 2,
+      "timeout": 30,
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+      }
     }
-  
+  ],
+  "parses": [
+    { "name": "自动解析", "type": 2, "url": "Sequence" },
+    { "name": "综合解析", "type": 1, "url": "https://jx.xmlyapi.com/?url=" }
+  ],
+  "lives": [],
+  "flags": ["youku", "qq", "iqiyi", "xigua", "m1905", "pptv", "wasu", "bilibili"]
+}
