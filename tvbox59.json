@@ -1,0 +1,13 @@
+{
+  "sites": [
+    {
+      "key": "netflixgc",
+      "name": "奈飞工厂",
+      "type": 1,
+      "api": "https://tvbox124.gd.ddnsto.com/api.php/provide/vod",
+      "header": "{\"Referer\":\"https://netflixgc.cc/\",\"User-Agent\":\"Mozilla/5.0\"}",
+      "searchable": 1,
+      "changeable": 1
+    }
+  ]
+}
